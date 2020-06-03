@@ -1,0 +1,25 @@
+Locales['en'] = {
+    ['you_paid'] = 'Tu pagaste ~g~$%s~s~',
+    ['garage'] = 'Garage',
+    ['notif_car_impounded'] = 'Garage: <br /> Tu auto se envio a deposito!',
+    ['status_in_garage'] = '%s: <font color="green">En garaje</font>',
+    ['status_impounded'] = '%s: <font color="red">En deposito</font>',
+    ['list_vehicles'] = 'Lista de Vehiculo',
+    ['stock_vehicle'] = 'Almacena Vehiculo',
+    ['return_vehicle'] = 'Su auto retornara por ($%s)',
+    ['reparation'] = 'Su auto esta dañado!',
+    ['reparation_yes'] = 'Costo de reparacion: ($%s)',
+    ['reparation_no'] = 'No, Gracias!',
+    ['reparation_no_notif'] = 'El vehiculo necesita estar en perfecta condicion',
+    ['ranger'] = 'Garage: <br /> Su auto se ha guardado en garaje!',
+    ['stockv_not_owned'] = 'Garage: <br /> Este vehiculo no le pertene!',
+    ['stockv_not_in_veh'] = 'Garage: <br /> Tu necesitas un vehiculo para almacenar!',
+    ['spawn'] = 'Presiona ~INPUT_PICKUP~ para sacar el vehiculo',
+    ['delete'] = 'Presiona  ~INPUT_PICKUP~ para guardar el vehiculo',
+    ['pound_action_menu'] = 'Presiona ~INPUT_PICKUP~ para ver el almacen',
+    ['not_enough_money'] = 'Tu no tienes suficiente dinero',
+    ['impound_list'] = '%s: Retornar',
+    ['impound_yard'] = 'Impound Yard',
+    ['impound_not_enough_money'] = 'Garage: <br /> Tu no tienes dinero'
+
+}
