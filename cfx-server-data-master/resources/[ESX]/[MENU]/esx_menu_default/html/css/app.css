@@ -1,0 +1,210 @@
+@font-face {
+	font-family: bankgothic;
+	src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+	font-family: pcdown;
+	src: url('../fonts/pdown.ttf');
+}
+
+.menu {
+	
+
+background: rgba(43, 42, 44, 0.8);
+background: linear-gradient(to bottom, rgba(43, 42, 44, 0.8), rgba(43, 42, 44, 0.8));
+
+border-radius: 10px 10px 10px 10px;
+padding-bottom: 13px;
+padding-top: 15px;
+padding-left: 15px;
+padding-right: 17px;
+font-weight: bold;
+	font-family: bankgothic;
+	min-width: 350px;
+	color:#fff;
+	
+	position: absolute;
+
+box-shadow: -1px 0px 12px 0px rgba(0,0,0,0.50);
+
+}
+
+.menu.align-left {
+	left: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+
+}
+
+.menu.align-top-left {
+	left: 150;
+	top: 100;
+
+}
+
+.menu.align-top {
+	
+	left: 50%;
+	top: 120;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right:210;
+	top: 190;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.menu .head {
+	margin-bottom:8px;
+	background: url('https://cdn.discordapp.com/attachments/711280258476933122/716576078038040616/immortalsbanneringame.png') no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	height: 45px;
+	line-height: 40px;
+border-radius: 2px 2px 2px 2px;
+color: #fff;
+
+box-shadow: 0 0 4px 4px rgba(236,202,141,0.9)
+
+
+}
+
+.menu .menu-items {
+ padding-bottom:5px;
+ padding-top:8px;
+ padding-left:5px;
+ padding-right:5px;
+
+	max-height:400px;
+	overflow-y: auto;
+/* border: 1px solid #000000; */
+
+}
+
+.menu .menu-items .menu-item {
+
+height: 40px;
+	margin-bottom:4px;
+	border-radius: 6px 6px 6px 6px;
+
+	display: block;
+	
+
+background: rgba(43, 42, 44, 0.8);
+
+background: linear-gradient(to bottom, rgba(227, 198, 250, 0.4), rgba(179, 207, 250, 0.4));
+
+padding-bottom: 7px;
+padding-top: 7px;
+padding-left: 13px;
+padding-right: 4px;
+
+
+	height: 32px;
+	line-height: 32px;
+	 color: rgba(0, 3, 20, 1);
+
+   padding-left:15px;
+	text-align: left;
+
+
+}
+
+.menu .menu-items .menu-item.selected {
+box-shadow: 0px 0px 5px 6px rgba(255,232,194,0.9);
+border:2px solid #e8b57c ;
+	/* background-color: #d0d0d0; */
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+left:5%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(255,232,194,0.9); 
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+svg,rect { 
+
+width: 100%; 
+height: 100%; 
+fill:transparent;
+
+
+}
+
+ 
+rect { 
+
+stroke-width:6;
+stroke-dasharray:400;
+animation: animate 4s linear infinite;
+
+}
+
+
+@keyFrames animate{
+
+0%{
+   stroke-dashoffset:800;
+    }
+
+100%{
+   stroke-dashoffset:0;
+    }
+
+
+}
+
+
+
+
+
+
