@@ -1,0 +1,16 @@
+COMO AGREGAR ITEMS ALA TIENDA
+
+Ir a la base de datos y agregar asi en cada tabla.
+
+
+- agregar iagen para el item en la carpeta  `html/img` 
+-Agregar el Codigo/path en  `__resource.lua` 
+
+para que aparescan las iamgenes usar el comando ``
+refresh 
+restart esx_supermarket
+
+Add items to the database:
+	INSERT INTO `items` (`name`, `label`, `limit`) VALUES ('banana', 'Banana', 10);
+Add items to the shop:
+	INSERT INTO `shops` (store, item, price) VALUES ('TwentyFourSeven','banana',50);

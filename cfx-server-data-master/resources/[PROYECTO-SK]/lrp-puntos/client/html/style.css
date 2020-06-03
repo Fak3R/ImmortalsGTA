@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Syncopate|Unica+One');
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+body, html {
+	overflow-y: hidden;
+}
+/* main.css */
+
+
+button{ 
+
+
+    background: rgb(115,14,48);
+    background: linear-gradient(90deg, rgba   (221,181,199,1) 0%, rgba(142,18,57,1) 35%, rgba(131,96,102,1) 100%);
+    font-family: 'Unica One', cursive;
+    font-size: 20px;
+    margin: 15px auto;
+    padding: 15	px 24px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-transform: uppercase;
+    width: 5%;
+    height: 15%;
+    display: inline-block;
+    position: relative;
+    left: 16%;
+    color: #fff;
+    border: 0.5px solid #000;
+
+
+}
+
+botontransferir1{
+    bottom: 180px;
+}
+
+#exitbank{
+	width: 35%;
+}
+
+h3{
+	position: absolute;
+	left: 10%;
+	bottom: 83.5%;
+}
+
+h4{
+	position: absolute;
+	left: 67%;
+	bottom: 83.5%;
+        font-size: 20px;
+}
+
+#balanceX{
+	position: absolute;
+	margin: 10px auto;
+	left: 44%;
+	top: 40%;
+	
+	font-size:30px;
+}
+
+
+#cancelbalance{
+	position: absolute;
+	left: 31%;
+	bottom: 20%;
+}
+
+.general{
+  box-shadow: -1px 0px 8px 0px rgba(174,11,4,0.90);
+   
+    background-image: url('img/phone.png');
+	background-repeat: no-repeat;
+       opacity:0.85;
+	font-family: 'Unica One', cursive;
+
+	width: 400px;
+	height: 220px;
+        color:#000;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+        padding: 10px;
+	position: absolute;
+
+	
+	padding-bottom: 20px;
+	top: 30%;
+	margin-left: auto;
+	margin-right: auto;
+
+
+
+
+}
+
+
+.transferUI{
+        background-image: url('img/phone.png');
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 620px 430px;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+        padding: 10px;
+color:#000;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+}
+
+#from, #to, #amountt {
+	position: relative;
+    top: 100px;
+    left: 62px;
+    color: #000;
+	
+    width: 40%;
+    height: 8%;
+    padding: 5px 5px;
+    margin: 15px 0;
+    box-sizing: border-box;
+ 
+}
+
+
+h1{
+	font-family: 'Unica One', cursive;
+	color: black;
+	position: relative;
+	left: 48%;
+	top: 39%;
+}
+.b{
+	
+	font-family: 'Unica One', cursive;
+	color: #000;
+	position: relative;
+	left: 30%;
+	top: 30%;
+}
+
+
+
+#backbalnace {
+	position:relative;
+	top: 60%;
+	left: 30%;
+}
+
+ .confondo {
+  color:#000;
+ }
+
+
+::placeholder {
+  color: black;
+  opacity: 1; 
+}
+
+.sans {
+
+background-color: rgb(27, 27, 27);
+ border: 0.5px solid #3a3a3a;
+color:#fff;
+padding: 10px;
+
+
+     border-radius:5px;
+     left: 10%;
+     bottom:95px;
+
+}
+.sans2 {
+ background-color: rgb(27, 27, 27);
+ border: 0.5px solid #3a3a3a;
+color:#fff;
+ padding: 10px;
+
+    border-radius:5px;
+    left: 49%;
+    bottom: 87px;
+
+}
+
+
+input[type=text] {
+	position: relative;
+    top: 100px;
+    left: 62px;
+    color: #000;
+font-weight: bold;
+    width: 80%;
+    height: 15%;
+    padding: 5px 5px;
+    margin: 40px 0;
+    box-sizing: border-box;
+ 
+	
+}
+
+
+button:hover{
+   background: rgb(115,14,14);
+background: linear-gradient(90deg, rgba(115,14,14,1) 0%, rgba(142,18,18,1) 35%, rgba(130,21,21,1) 100%);
+}
+
+
